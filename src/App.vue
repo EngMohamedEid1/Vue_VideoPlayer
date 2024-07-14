@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <VideoPlayer />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import VideoPlayer from "./components/VideoPlayer.vue";
+import VideoPlayer from "./components/VideoPlayer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    VideoPlayer,
+  },
+};
 </script>
 
 <style>
